@@ -16,7 +16,12 @@ VS Code has built-in support for our linting setup:
    - YAML schema validation for frontmatter
    - Auto-formatting on save
 
-3. To install the pre-commit hook for automatic validation:
+3. Real-time frontmatter linting:
+   - Field naming conventions (snake_case) are validated as you type
+   - Schema validation happens in real-time
+   - Errors appear as you type with underlines in the editor
+
+4. To install the pre-commit hook for automatic validation:
    ```bash
    npm run setup-hooks
    ```

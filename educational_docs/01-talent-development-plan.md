@@ -1,9 +1,9 @@
 ---
-program_name: "计算机科学与技术"  # 违反FM002：字段名未使用snake_case
+programName: "计算机科学与技术"  # 违反FM002：字段名未使用snake_case
 program_code: "CS01"
 department: "计算机科学与工程学院"
 degree_level: "本科"
-academic_year: "2024-2025"  # 违反FM002：字段名未使用snake_case
+academicYear: "2024-2025"  # 违反FM002：字段名未使用snake_case
 graduation_requirements:
   - requirement_id: "GR01"
     description: "掌握数学、自然科学和计算机科学基础知识"

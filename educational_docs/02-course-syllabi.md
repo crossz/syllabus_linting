@@ -13,7 +13,6 @@ prerequisites:
   - "无" # 先修课程 / Prerequisites
 course_type: "必修" # 课程性质 (必修/选修) / Course Type
 target_program: "计算机科学与技术" # 面向专业 / Target Program
-# 缺少 required 字段 course_code (违反FM001：缺少必需字段)
 
 # 课程教学目标 (对应人才培养方案中的毕业要求)
 course_objectives:
@@ -49,7 +48,7 @@ course_content:
       - "函数"
     alignment_with_objectives:
       - "CO02"
-  - chapter: 3  # 修复FM001：chapter应该为integer类型
+  - chapter: 3
     title: "数据结构"
     hours: 8
     key_points:
