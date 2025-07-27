@@ -12,5 +12,7 @@
   "MD034": false,
   "MD036": false,
   "MD047": true,
-  "MD048": { "style": "backtick" }
+  "MD048": { "style": "backtick" },
+  "MD051": false,
+  "MD052": false
 }

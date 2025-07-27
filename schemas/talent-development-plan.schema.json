@@ -20,7 +20,11 @@
     },
     "degree_level": {
       "type": "string",
-      "enum": ["本科", "硕士", "博士"],
+      "enum": [
+        "本科",
+        "硕士",
+        "博士"
+      ],
       "description": "学位层次 / Degree Level"
     },
     "academic_year": {
@@ -45,7 +49,15 @@
           "related_courses": {
             "type": "array",
             "items": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "CS001",
+                "CS002",
+                "CS003",
+                "CS004",
+                "CS005",
+                "CS006"
+              ]
             },
             "description": "相关课程"
           },
@@ -57,10 +69,22 @@
             "description": "评估方法"
           }
         },
-        "required": ["requirement_id", "description", "related_courses", "assessment_methods"]
+        "required": [
+          "requirement_id",
+          "description",
+          "related_courses",
+          "assessment_methods"
+        ]
       },
       "minItems": 1
     }
   },
-  "required": ["program_name", "program_code", "department", "degree_level", "academic_year", "graduation_requirements"]
+  "required": [
+    "program_name",
+    "program_code",
+    "department",
+    "degree_level",
+    "academic_year",
+    "graduation_requirements"
+  ]
 }
