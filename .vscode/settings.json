@@ -45,15 +45,5 @@
     "source.fixAll.eslint": "explicit"
   },
   "markdownlint.run": "onType",
-  "markdownlint.trace.server": "verbose",
-  // ESLint配置
-  "eslint.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact", "markdown"],
-  "eslint.workingDirectories": ["./eslint-rules"],
-  "eslint.options": {
-    "extensions": [".js", ".md"]
-  },
-  "files.exclude": {
-    "logseq/*": true
-  }
+  "markdownlint.trace.server": "verbose"
 }

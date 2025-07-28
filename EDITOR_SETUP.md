@@ -9,7 +9,6 @@ VS Code has built-in support for our linting setup:
 1. Install the recommended extensions:
    - `davidanson.vscode-markdownlint` - Markdown linting
    - `redhat.vscode-yaml` - YAML validation and autocompletion
-   - `streetsidesoftware.code-spell-checker` - Spell checking
 
 2. The `.vscode/settings.json` file already configures:
    - Markdown linting with our custom rules
@@ -22,6 +21,7 @@ VS Code has built-in support for our linting setup:
    - Errors appear as you type with underlines in the editor
 
 4. To install the pre-commit hook for automatic validation:
+
    ```bash
    npm run setup-hooks
    ```
@@ -36,6 +36,7 @@ VS Code has built-in support for our linting setup:
    - `stephpy/vim-yaml` - YAML support
 
 2. Add to your `.vimrc`:
+
    ```vim
    " Enable ALE for markdown and yaml files
    let g:ale_linters = {
@@ -55,6 +56,7 @@ VS Code has built-in support for our linting setup:
    - `YAMLLint`
 
 2. Configure SublimeLinter in `Preferences > Package Settings > SublimeLinter > Settings`:
+
    ```json
    {
      "linters": {
