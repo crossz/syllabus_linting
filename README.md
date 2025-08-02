@@ -53,11 +53,17 @@ This template includes comprehensive linting support for various editors:
    - Markdown linting with our custom rules
    - YAML schema validation for frontmatter
    - Auto-formatting on save
+   - Snake_case naming validation for frontmatter fields
 
 3. To install the pre-commit hook for automatic validation:
    ```bash
    npm run setup-hooks
    ```
+
+4. Real-time validation features:
+   - Field names in frontmatter are validated for snake_case compliance
+   - Schema validation is performed based on document type
+   - Errors appear directly in the editor as you type
 
 For detailed setup instructions for other editors, see [EDITOR_SETUP.md](EDITOR_SETUP.md)
 

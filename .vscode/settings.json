@@ -37,7 +37,18 @@
   "yaml.schemas": {
     "./schemas/talent-development-plan.schema.json": "educational_docs/01-talent-development-plan.md",
     "./schemas/course-syllabi.schema.json": "educational_docs/02-course-syllabi.md",
-    "./schemas/teaching-schedule.schema.json": "educational_docs/03-teaching-schedule.md"
+    "./schemas/teaching-schedule.schema.json": "educational_docs/03-teaching-schedule.md",
+    "./.vscode/frontmatter-snake-case-schema.json": "*.md"
+  },
+  "yaml.customTags": [
+    "!include",
+    "!import"
+  ],
+  "yaml.completion": true,
+  "yaml.hover": true,
+  "yaml.validation": true,
+  "[yaml]": {
+    "editor.formatOnSave": true
   },
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
